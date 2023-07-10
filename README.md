@@ -1,6 +1,7 @@
 # Portfolio
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.5.
+It's the code for my portfolio that's launched on firebase on the link https://adamelhorri-e8df3.web.app/
 
 ## Development server
 
