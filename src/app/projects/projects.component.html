@@ -1,0 +1,49 @@
+<div class="container">
+    <h1>Professional Projects</h1>
+
+    <section *ngFor="let project of projects">
+        <h2>{{project.title}}</h2>
+
+        <h3>
+            <span>Technologies: </span>
+            <span>{{project.technologies}}</span>
+        </h3>
+
+        <ul *ngFor="let desc of project.description">
+            <li>{{desc}}</li>
+        </ul>
+    </section>
+</div>
+<div style="margin-top:1cm ;" class="container">
+    <h1> Personal Projects</h1>
+
+    <section *ngFor="let project of projectsP">
+        <h2>{{project.title}}</h2>
+
+        <h3>
+            <span>Technologies: </span>
+            <span>{{project.technologies}}</span>
+        </h3>
+
+        <ul *ngFor="let desc of project.description">
+            <li>{{desc}}</li>
+        </ul>
+    </section>
+</div>
+<div style="margin-top:1cm ;" class="container">
+    <h1> University Projects</h1>
+
+    <section *ngFor="let project of projectsU">
+        <h2>{{project.title}}</h2>
+
+        <h3>
+            <span>Technologies: </span>
+            <span>{{project.technologies}}</span>
+        </h3>
+
+        <ul *ngFor="let desc of project.description">
+            <li>{{desc}}</li>
+        </ul>
+    </section>
+</div>
+
